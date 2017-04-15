@@ -1,0 +1,13 @@
+C:\Work\AutomatedInformationSystem\AIS.BL\bin\Debug\AIS.BL.dll
+C:\Work\AutomatedInformationSystem\AIS.BL\bin\Debug\AIS.BL.pdb
+C:\Work\AutomatedInformationSystem\AIS.BL\bin\Debug\AIS.Database.dll
+C:\Work\AutomatedInformationSystem\AIS.BL\bin\Debug\Dapper.dll
+C:\Work\AutomatedInformationSystem\AIS.BL\bin\Debug\MySql.Data.dll
+C:\Work\AutomatedInformationSystem\AIS.BL\bin\Debug\AIS.Database.pdb
+C:\Work\AutomatedInformationSystem\AIS.BL\bin\Debug\AIS.Database.dll.config
+C:\Work\AutomatedInformationSystem\AIS.BL\bin\Debug\Dapper.xml
+C:\Work\AutomatedInformationSystem\AIS.BL\obj\Debug\AIS.BL.csprojResolveAssemblyReference.cache
+C:\Work\AutomatedInformationSystem\AIS.BL\obj\Debug\AIS.BL.dll
+C:\Work\AutomatedInformationSystem\AIS.BL\obj\Debug\AIS.BL.pdb
+C:\Work\AutomatedInformationSystem\AIS.BL\bin\Debug\AIS.Entity.dll
+C:\Work\AutomatedInformationSystem\AIS.BL\bin\Debug\AIS.Entity.pdb

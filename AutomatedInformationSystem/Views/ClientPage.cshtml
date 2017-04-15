@@ -1,0 +1,50 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+<body>
+    <div id="clientWindow">
+        <div>
+            Client Window
+            <label>ID Number :</label><label>Status :</label><br />
+            <label>Full Name :</label><label>Course :</label><br />
+            <label>Address :</label><br />
+            <label>Gender :</label><br />
+            <label>ID Number or Last Name</label><br />
+            <input type="text" data-bind="text: searchId" /><button>Search</button>
+        </div>
+        <div>
+            <table>
+                <thead>
+                <th>Client Id</th>
+                <th>Full Name</th>
+                <th>Gender</th>
+                <th>Status</th>
+                <th>Course</th>
+                </thead>
+                <tbody>
+                    <tr data-bind="foreach: searchResult">
+                        <td data-bind="text: $data.id"></td>
+                        <td data-bind="text: $data.fName + $data.mName + $data.lName"></td>
+                        <td data-bind="text: $data.gender"></td>
+                        <td data-bind="text: $data.status"></td>
+                        <td data-bind="text: $data.course"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <button>New</button>
+            <button>Update</button>
+            <button>Delete</button>
+        </div>
+    </div>
+</body>
+</html>

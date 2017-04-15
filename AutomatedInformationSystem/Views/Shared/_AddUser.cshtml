@@ -1,0 +1,16 @@
+﻿<!DOCTYPE html>
+
+<html>
+<body>
+    <div>
+        <button id="btnClose">Close</button>
+        <label>User Name : </label><input id="txtNewUserName" type="text" /><br />
+        <label>Password  : </label><input id="txtNewPassword" type="password" /> <label id="newErrMsg"></label><br />
+        <label>Status: <select id="drpStatus">
+                           <option id="1">Administrator</option>
+                       </select>
+        </label><br />
+        <button id="btnSignUp" onclick="user.createUser()">SignUp</button>
+    </div>
+</body>
+</html>

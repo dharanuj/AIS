@@ -1,0 +1,4 @@
+C:\Work\AutomatedInformationSystem\AIS.Entity\bin\Debug\AIS.Entity.dll
+C:\Work\AutomatedInformationSystem\AIS.Entity\bin\Debug\AIS.Entity.pdb
+C:\Work\AutomatedInformationSystem\AIS.Entity\obj\Debug\AIS.Entity.dll
+C:\Work\AutomatedInformationSystem\AIS.Entity\obj\Debug\AIS.Entity.pdb
