@@ -33,9 +33,9 @@ namespace AIS.Database
             try
             {
                 var param = new DynamicParameters();
-                param.Add("v_username", user.username, dbType: DbType.String, direction: ParameterDirection.Input);
-                param.Add("v_password", user.password, dbType: DbType.String, direction: ParameterDirection.Input);
-                param.Add("v_status", user.status, dbType: DbType.Int16, direction: ParameterDirection.Input);
+                param.Add("v_username", user.Username, dbType: DbType.String, direction: ParameterDirection.Input);
+                param.Add("v_password", user.Password, dbType: DbType.String, direction: ParameterDirection.Input);
+                param.Add("v_status", user.Status, dbType: DbType.Int16, direction: ParameterDirection.Input);
                 param.Add("v_isusercreated", dbType: DbType.UInt16, direction: ParameterDirection.Output);
 
                 using (var con = LocalDBConnection)

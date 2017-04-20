@@ -7,11 +7,13 @@
                 type: 'GET',
                 url: '/api/users/?username=' + $('#txtUserName').val() + '&password=' + $('#txtPassword').val()
             }).done(function (response) {
-                if (response)
-                    window.location.href = '#';
+                if (response) {
+                    $.cookie('username', $('#txtUserName').val(), { path: '/' });
+                    window.location.href = '/Users/Client.aspx';
+                }
                 else
                     $('#errMsg').text('Invalid username or password');
-            }).fail(function (response) {
+            }).fail(function () {
                 alert("Something went wrong. Please refresh the page and try again");
             });
         }
@@ -21,16 +23,20 @@
 
     _self.createUser = function () {
         if (_self.checkUserDetails($('#txtNewUserName').val(), $('#txtNewPassword'))) {
-            var userObj = { 'username': $('#txtNewUserName').val(), 'password': $('#txtNewPassword').val(), 'status': parseInt($('#drpStatus option:selected').attr('id')) };
+            var userObj = { 'Username': $('#txtNewUserName').val(), 'Password': $('#txtNewPassword').val(), 'Status': parseInt($('#drpStatus option:selected').attr('id')) };
             $.ajax({
                 type: 'POST',
                 url: '/api/users/',
                 data: userObj
             }).done(function (response) {
-                if (response)
-                    window.location.href = '#';
+                if (response) {
+                    $.cookie('username', $('#txtNewUserName'.val(), { path: '/' }));
+                    window.location.href = '/Users/Client.aspx';
+                }
                 else
                     $('#newErrMsg').text('User already exists');
+            }).fail(function () {
+                alert('Something went wrong. Please refresh the page and try again.');
             });
         }
         else
@@ -50,5 +56,7 @@
 }
 
 $(document).ready(function () {
+    if ($.cookie('username'))
+        window.location.href = '/Users/Client.aspx';
     user = new User();
 });

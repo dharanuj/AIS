@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26403.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomatedInformationSystem", "AutomatedInformationSystem\AutomatedInformationSystem.csproj", "{FF9FCBFD-8DE3-4039-B04A-337B82CA88B2}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIS.Database", "AIS.Database\AIS.Database.csproj", "{5E5C32C7-8662-4CCA-9426-C21C3C85E45F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIS.BL", "AIS.BL\AIS.BL.csproj", "{2A7E6BF4-70C7-4FB9-886D-61EF76BC061C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIS.UI", "AIS.UI\AIS.UI.csproj", "{8497ACC0-9BE0-4473-B876-B3BBB40C2E43}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AISUI", "AIS.UI\AISUI.csproj", "{8497ACC0-9BE0-4473-B876-B3BBB40C2E43}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIS.Entity", "AIS.Entity\AIS.Entity.csproj", "{28D782E2-0C8B-40DC-9E76-C92604A34CCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIS.UI", "AIS.UI\AIS.UI.csproj", "{4D54632D-408E-44B1-BA86-F185542CF68A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,10 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FF9FCBFD-8DE3-4039-B04A-337B82CA88B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FF9FCBFD-8DE3-4039-B04A-337B82CA88B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FF9FCBFD-8DE3-4039-B04A-337B82CA88B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FF9FCBFD-8DE3-4039-B04A-337B82CA88B2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5E5C32C7-8662-4CCA-9426-C21C3C85E45F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5E5C32C7-8662-4CCA-9426-C21C3C85E45F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E5C32C7-8662-4CCA-9426-C21C3C85E45F}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,6 +35,10 @@ Global
 		{28D782E2-0C8B-40DC-9E76-C92604A34CCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28D782E2-0C8B-40DC-9E76-C92604A34CCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28D782E2-0C8B-40DC-9E76-C92604A34CCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D54632D-408E-44B1-BA86-F185542CF68A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D54632D-408E-44B1-BA86-F185542CF68A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D54632D-408E-44B1-BA86-F185542CF68A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D54632D-408E-44B1-BA86-F185542CF68A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

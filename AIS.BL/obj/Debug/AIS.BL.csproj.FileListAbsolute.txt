@@ -11,3 +11,16 @@ C:\Work\AutomatedInformationSystem\AIS.BL\obj\Debug\AIS.BL.dll
 C:\Work\AutomatedInformationSystem\AIS.BL\obj\Debug\AIS.BL.pdb
 C:\Work\AutomatedInformationSystem\AIS.BL\bin\Debug\AIS.Entity.dll
 C:\Work\AutomatedInformationSystem\AIS.BL\bin\Debug\AIS.Entity.pdb
+C:\Work\AIS\AIS.BL\bin\Debug\AIS.BL.dll
+C:\Work\AIS\AIS.BL\bin\Debug\AIS.BL.pdb
+C:\Work\AIS\AIS.BL\bin\Debug\AIS.Database.dll
+C:\Work\AIS\AIS.BL\bin\Debug\AIS.Entity.dll
+C:\Work\AIS\AIS.BL\bin\Debug\Dapper.dll
+C:\Work\AIS\AIS.BL\bin\Debug\MySql.Data.dll
+C:\Work\AIS\AIS.BL\bin\Debug\AIS.Database.pdb
+C:\Work\AIS\AIS.BL\bin\Debug\AIS.Database.dll.config
+C:\Work\AIS\AIS.BL\bin\Debug\AIS.Entity.pdb
+C:\Work\AIS\AIS.BL\bin\Debug\Dapper.xml
+C:\Work\AIS\AIS.BL\obj\Debug\AIS.BL.csprojResolveAssemblyReference.cache
+C:\Work\AIS\AIS.BL\obj\Debug\AIS.BL.dll
+C:\Work\AIS\AIS.BL\obj\Debug\AIS.BL.pdb

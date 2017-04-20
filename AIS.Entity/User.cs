@@ -3,8 +3,8 @@ namespace AIS.Entity
 {
     public class User
     {
-        public string username { get; set; }
-        public string password { get; set; }
-        public int status { get; set; }
+        public string Username { get; set; }
+        public string Password { get; set; }
+        public int Status { get; set; }
     }
 }
