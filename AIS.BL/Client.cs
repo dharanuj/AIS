@@ -8,6 +8,8 @@ namespace AIS.BL
     public class Client
     {
         private readonly ClientRepository _client = new ClientRepository();
+        
+        private string str = "";
 
         public List<ClientInfo> GetClientInfo(int? id, string lastName)
         {
